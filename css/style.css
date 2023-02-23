@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212121;
+    color: #e8e8e8;
+    /*text-align: center;*/
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a4b61;
+    color: white;
+    padding: 25px;
+    width: auto;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+main {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    text-align: center;
+    /*margin: 50px 150px;*/
+}
+
+section {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: rgba(198, 198, 198, 0.24);
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: #f6f6ff;
+    margin-top: 0;
+}
+
+p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.custom-form {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: rgba(198, 198, 198, 0.24);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 200px;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container_button {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    left: auto;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    vertical-align: middle;
+}
+
+input[type="radio"]:checked + label:before {
+    background-color: #ccc;
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: #fcfcfc;
+    text-align: center;
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 4px;
+}
+
+input[type="date"] {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    display: block;
+}
